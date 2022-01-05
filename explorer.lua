@@ -454,4 +454,4 @@ function Give(Player)
 	Sc.Parent = gui
 end
 
-Give(game.Players.Regium)
+Give(game.Players.LocalPlayer)
