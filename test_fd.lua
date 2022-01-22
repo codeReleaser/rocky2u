@@ -1,9 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
-  local fake = newproxy(true)
+local fake = newproxy(true)
 local test = getmetatable(fake)
 local old_ind = test.__index
 
